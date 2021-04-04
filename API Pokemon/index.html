@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Busqueda Pokemon</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img src="./img/International_Pokémon_logo.svg" alt="logo Pokemon" />
+        <nav>
+          <form id="formulario">
+            <input
+              type="text"
+              name="text"
+              id="text"
+              placeholder="Search Pokemon"
+            />
+            <input type="submit" value="🔍" class="btn"/>
+          </form>
+        </nav>
+      </div>
+    </header>
+    <main class="flex"></main>
+
+    <template id="template-card">
+        <div id="pokes">     
+            <div class="card">
+                <div class="card-header">
+                    <h1 class="titulo">Pokemon</h1>
+                </div>
+                <div class="card-body">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png" alt="Pikachu" class="card-body-img">
+                </div>
+                <div class="card-footer">
+                  
+                </div>
+            </div>       
+        </div>
+    </template>
+    
+    <script src="app.js"></script>
+  </body>
+</html>
